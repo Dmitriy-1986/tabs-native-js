@@ -1,0 +1,14 @@
+.tabheader__items {
+    display: flex;
+}
+
+.tabheader__item {
+    cursor: pointer;
+    border: 1px dotted grey;
+    padding: 5px;
+}
+
+.tabheader__item_active {
+    background-color: #ff0000; /* Цвет фона для активного элемента */
+    color: #ffffff; /* Цвет текста для активного элемента */
+}
